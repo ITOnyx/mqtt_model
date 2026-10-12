@@ -26,7 +26,6 @@ Bộ dữ liệu cung cấp 3 định dạng biểu diễn lưu lượng mạng:
 - [`train_ml_models.py`](file:///d:/mqtt/train_ml_models.py): Pipeline huấn luyện mô hình Machine Learning cổ điển: **Random Forest**, **HistGradientBoosting** (LightGBM-style), và **Decision Tree**.
 - [`train_deep_model.py`](file:///d:/mqtt/train_deep_model.py): Mô hình Deep Learning PyTorch (`MQTTNet`) tối ưu hóa cho mạng nơ-ron đa tầng với BatchNorm, Dropout, hỗ trợ GPU (NVIDIA RTX 2050 CUDA).
 - [`predict_mqtt.py`](file:///d:/mqtt/predict_mqtt.py): Script thực thi suy luận (Inference), nhận đầu vào luồng mạng và dự đoán loại tấn công kèm độ tin cậy (% confidence).
-- [`benchmark_paper/classification_fixed.py`](file:///d:/mqtt/benchmark_paper/classification_fixed.py): Phiên bản sửa lỗi và tương thích Scikit-Learn 1.8+ / Python 3.12 của script gốc trong repo.
 
 ---
 
@@ -75,10 +74,4 @@ python train_ml_models.py --mode biflow --classification binary --model rf
 ### 4.3. Huấn Luyện Lại Mô Hình Deep Learning (PyTorch GPU)
 ```bash
 python train_deep_model.py --mode biflow --classification multiclass --epochs 15 --batch_size 256
-```
-
-### 4.4. Chạy Script Gốc Của Repo Đã Được Sửa Lỗi (Benchmark 6 thuật toán)
-```bash
-cd benchmark_paper
-python classification_fixed.py --data_dir .. --slices 1
 ```
