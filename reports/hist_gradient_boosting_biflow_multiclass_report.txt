@@ -1,0 +1,17 @@
+Model: Hist_Gradient_Boosting
+Mode: biflow
+Classification: multiclass
+Val Accuracy: 0.9993 | Val Macro F1: 0.9991
+Test Accuracy: 0.9997 | Test Macro F1: 0.9997
+
+                 precision    recall  f1-score   support
+
+         Normal     0.9997    0.9999    0.9998      8601
+         Scan_A     1.0000    1.0000    1.0000      1991
+        Scan_sU     1.0000    1.0000    1.0000      2243
+         Sparta     1.0000    1.0000    1.0000      1412
+MQTT_Bruteforce     0.9993    0.9979    0.9986      1454
+
+       accuracy                         0.9997     15701
+      macro avg     0.9998    0.9996    0.9997     15701
+   weighted avg     0.9997    0.9997    0.9997     15701

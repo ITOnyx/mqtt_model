@@ -1,0 +1,17 @@
+Model: Random_Forest
+Mode: biflow
+Classification: multiclass
+Val Accuracy: 0.9997 | Val Macro F1: 0.9996
+Test Accuracy: 0.9998 | Test Macro F1: 0.9998
+
+                 precision    recall  f1-score   support
+
+         Normal     1.0000    0.9997    0.9998     12902
+         Scan_A     1.0000    1.0000    1.0000      2986
+        Scan_sU     1.0000    1.0000    1.0000      3365
+         Sparta     1.0000    1.0000    1.0000      2117
+MQTT_Bruteforce     0.9982    1.0000    0.9991      2182
+
+       accuracy                         0.9998     23552
+      macro avg     0.9996    0.9999    0.9998     23552
+   weighted avg     0.9998    0.9998    0.9998     23552

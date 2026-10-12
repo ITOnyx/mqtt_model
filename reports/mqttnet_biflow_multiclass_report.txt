@@ -1,0 +1,16 @@
+Model: MQTTNet (Deep Learning PyTorch)
+Mode: biflow
+Classification: multiclass
+Macro F1: 0.9846
+
+                 precision    recall  f1-score   support
+
+         Normal     0.9996    0.9798    0.9896     12902
+         Scan_A     1.0000    1.0000    1.0000      2986
+        Scan_sU     1.0000    0.9902    0.9951      3365
+         Sparta     1.0000    1.0000    1.0000      2117
+MQTT_Bruteforce     0.8830    1.0000    0.9379      2182
+
+       accuracy                         0.9875     23552
+      macro avg     0.9765    0.9940    0.9845     23552
+   weighted avg     0.9889    0.9875    0.9878     23552

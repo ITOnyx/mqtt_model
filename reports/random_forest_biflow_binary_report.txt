@@ -1,0 +1,14 @@
+Model: Random_Forest
+Mode: biflow
+Classification: binary
+Accuracy: 0.9997
+Macro F1: 0.9997
+
+              precision    recall  f1-score   support
+
+      Normal     0.9997    0.9998    0.9997     17202
+      Attack     0.9997    0.9996    0.9997     14200
+
+    accuracy                         0.9997     31402
+   macro avg     0.9997    0.9997    0.9997     31402
+weighted avg     0.9997    0.9997    0.9997     31402

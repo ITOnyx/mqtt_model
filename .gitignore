@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C++ / compiled objects
+*.so
+
+# Distribution / virtual environments
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+
+# Large Raw and Unsplit Data Files (> 100MB / Gigabytes)
+data/raw_pcap/
+data/packets/
+data/biflow/
+data/uniflow/
+*.pcap
+
+# Allow only data/splits
+!data/splits/
+!data/splits/*.csv
+
+# Temporary / Scratch / IDE
+Classification_Bi_*/
+*.pt.tmp
+.ipynb_checkpoints
+.vscode/
+.idea/

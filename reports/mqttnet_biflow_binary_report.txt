@@ -1,0 +1,13 @@
+Model: MQTTNet (Deep Learning PyTorch)
+Mode: biflow
+Classification: binary
+Macro F1: 0.9964
+
+              precision    recall  f1-score   support
+
+      Normal     0.9935    1.0000    0.9967     17202
+      Attack     1.0000    0.9920    0.9960     14200
+
+    accuracy                         0.9964     31402
+   macro avg     0.9967    0.9960    0.9964     31402
+weighted avg     0.9964    0.9964    0.9964     31402
